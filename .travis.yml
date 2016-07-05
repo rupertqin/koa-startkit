@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+node_js:
+  - stable
+  - 6
+  - 5
+  - 4
+services:
+  - mongodb
+before_script:
+  - sleep 15
+  - mongo music --eval 'db.addUser("travis", "test");'
+script: 
+  - npm test
