@@ -1,4 +1,4 @@
-# koa2-startkit
+# koa-startkit
 [![Build Status](https://travis-ci.org/rupertqin/koa-startkit.svg?branch=master)](https://travis-ci.org/rupertqin/koa-startkit)  
 一个 Koa2 的脚手架
 
